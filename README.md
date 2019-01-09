@@ -4,6 +4,9 @@ The API has the next functionality:
 * It accepts POST requet to /time, freezing the time to the one sent. From that moment on, all the GET requests will return that frozen time.
     * Returns HTTP status 400 (Bad Request) if the time frozen does not have ISO8601 format
 
+## Prerequisite
+* You must have Ruby installed
+* Run `bundle install`
 
 ## How to run the tests
 Run `rake`
