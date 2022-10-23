@@ -6,6 +6,6 @@ gem 'httpclient'
 
 group :test, :development do
   gem "rspec"
-  gem 'rack-test'
+  gem 'rack-test', '>= 2.0.0'
   gem 'rake'
 end
