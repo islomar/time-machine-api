@@ -1,11 +1,11 @@
 source "https://rubygems.org"
 
-gem 'sinatra'
+gem 'sinatra', '>= 4.2.0'
 gem 'sinatra-reloader'
 gem 'httpclient'
 
 group :test, :development do
   gem "rspec"
-  gem 'rack-test'
+  gem 'rack-test', '>= 1.1.0'
   gem 'rake'
 end
